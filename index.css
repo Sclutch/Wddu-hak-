@@ -1,6 +1,6 @@
 *{margin: 0;
-    
-font-family: 'Fredoka One', cursive;}
+    font-family: 'Fredoka One', cursive;
+}
 body{
     background-color: #e3e3e3;
     
@@ -33,7 +33,6 @@ nav li a {
 }
 nav li a:hover{
     font-size: 15px;
-    
 }
 img{
   width: 79px;
@@ -42,10 +41,10 @@ img{
         margin-left: 57px;
 
 }
-/*input coding*/
 nav input {
     font-family: 'Fredoka One', cursive;
- 
+ position: relative;
+    left: 130px;
     
 }
 /*search bar coding*/
@@ -61,13 +60,12 @@ nav input[type="text"]{
     width: 15px;
     height: 15px;
     border: none;
-    transition-property: width;
-    transition-duration: 1s;
 
 }
 nav input[type="text"]:hover{
-  
-    transform: scale(1.5);
+    
+    width: 20px;
+    height: 20px;
     
 }
 nav input[type="text"]:focus{
@@ -79,7 +77,6 @@ outline: none;    height: 20px;
     border-radius: 20px;
     padding:  10px 10px;
  background-size: contain;
-    
 }
 /*button  coding*/
 nav input[type="submit"]{
@@ -89,77 +86,118 @@ nav input[type="submit"]{
     border-radius: 60px;
     padding: 10px 20px 10px 20px;
     color: white;
-    
 }
 nav input[type="submit"]:hover{
-   transform: scale(1.2);
-    
+    width: 150px;
+    height: 50px;
 }
 nav input[type="submit"]:focus{
 outline: none;
     
 }
-.cont{
-   
-    display: flex;
-    flex-direction: column;
-    width: 650px;
-    margin: auto;
-    height: 270px;
-    justify-content: center;
-   
+/* sign up code*/
+.con{ position: relative;
+    top:100px;
     background-color: white;
- background-image: url(2-523x400.jpg);
+    
+background-image: url(2-523x400.jpg);
     background-repeat: no-repeat;
+    background-size:contain;
     background-position: right;
-    background-size: contain;
-    position: relative;
-    top: 50px;
+    height:400px;
+    width: 1000px;
+    margin: auto;
 }
+.con span{
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    top: 4px;
+    left: 100px;
+    text-align: center;
+}
+.con #ne{
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 548px;
+    top: 33px;
+    width: 217px;
+}
+.con a{
+    width: 213px;
+    text-decoration: none;
+    position: relative;
+    left: 644px;
+   text-align: center;
+    top: 65px;
+    display: inline-block;
+   padding: 9px 0 9px 0;
+    margin: 8px;
+    font-size: 15px;
+}
+/*sign up  part 2*/
 .cont input{
     position: relative;
-    top: 70px;
-left: 15px;
-    margin: 15px 15px;
-    border: 2px solid green;
-    width: 200px;
+    bottom:164px;
+    left: 100px;
     border: none;
-    border-bottom: 1px solid ;
-    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    margin-top: 20px;
 }
-
-
-.cont a{ position: relative;
-    left: 395px;
-    text-align: center;
-     text-decoration: none;
-padding: 10px 5px ;
-
- top: -53px;
+.cont input:focus{
+    
+    outline:none; 
 }
- #fa{
-     
-     width: 200px;
-     background-color: #3b5998;
+/*sign up part 3*/
+.ne1{
+    background-color: #3b5998;
     color: white;
     
-    
-    
-} 
- #tw{ width: 200px;
-background-color:  #00acee;
-    color: white;
-
 }
- #go{ 
-      
-      width: 200px;
+.ne2{
+    background-color:  #00acee;
+    color: white;
+}
+.ne3{
     background-color: #db4a39;
     color: white;
+}
+/*sign up buuton */
+#si{
+        border: 2px solid #25b225;
+    background-color: #25b225;
+    border-radius: 8px;
+    position: relative;
+    bottom: 115px;
+    left: 100px;
+    color: white;
+    padding: 7px 21px ;
+}
+#si:focus{
+    outline: none;
+}
+/* sign up divider*/
+#or{
     
-} 
-.cont span{position: relative;
-    top: 50px;
-    font-size: 30px;
-    left: 30px;
+
+  background-color: gray;
+   
+    position: relative;
+    left: 445px;
+    top: -43px;
+    border-radius: 387px;
+    padding: 10px;
+
+  
+}
+/* sign up code end*/
+.li{
+    position: relative;
+    top: 110px;
+    left: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #25b225;
 }
