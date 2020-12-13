@@ -1,0 +1,165 @@
+*{margin: 0;
+    
+font-family: 'Fredoka One', cursive;}
+body{
+    background-color: #e3e3e3;
+    
+}
+/*nav bar elements coding*/
+header{
+    background-color: #ffffff;
+    height: 100px;
+    
+}
+nav{
+ overflow: hidden;
+}
+nav ul {
+ font-family: 'Fredoka One', cursive;
+    display: flex;
+    
+} 
+nav li{ 
+    margin-top: 39px;
+    list-style: none;
+}
+nav li a {
+  color: black;
+   font-size: 13px;
+     font-style:normal;
+    margin-left: 65px;
+    text-decoration: none;
+    
+}
+nav li a:hover{
+    font-size: 15px;
+    
+}
+img{
+  width: 79px;
+    height: 67px;
+        margin-top: -25px;
+        margin-left: 57px;
+
+}
+/*input coding*/
+nav input {
+    font-family: 'Fredoka One', cursive;
+ 
+    
+}
+/*search bar coding*/
+nav input[type="text"]{
+    border: none;
+    background-color: white;
+    background-image: url(Images/dx.png);
+    background-repeat:   no-repeat ;
+     background-position: center;
+    background-size: cover;
+     margin-left: 65px;
+    margin-right: 26px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    transition-property: width;
+    transition-duration: 1s;
+
+}
+nav input[type="text"]:hover{
+  
+    transform: scale(1.5);
+    
+}
+nav input[type="text"]:focus{
+    width: 150px;
+    border: 2px solid   #25b225;
+outline: none;    height: 20px;
+  background-position:right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding:  10px 10px;
+ background-size: contain;
+    
+}
+/*button  coding*/
+nav input[type="submit"]{
+    margin-top: -14px; 
+    border: 2px solid white;
+    background-color: #25b225;
+    border-radius: 60px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    
+}
+nav input[type="submit"]:hover{
+   transform: scale(1.2);
+    
+}
+nav input[type="submit"]:focus{
+outline: none;
+    
+}
+.cont{
+   
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: auto;
+    height: 270px;
+    justify-content: center;
+   
+    background-color: white;
+ background-image: url(2-523x400.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    top: 50px;
+}
+.cont input{
+    position: relative;
+    top: 70px;
+left: 15px;
+    margin: 15px 15px;
+    border: 2px solid green;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none;
+}
+
+
+.cont a{ position: relative;
+    left: 395px;
+    text-align: center;
+     text-decoration: none;
+padding: 10px 5px ;
+
+ top: -53px;
+}
+ #fa{
+     
+     width: 200px;
+     background-color: #3b5998;
+    color: white;
+    
+    
+    
+} 
+ #tw{ width: 200px;
+background-color:  #00acee;
+    color: white;
+
+}
+ #go{ 
+      
+      width: 200px;
+    background-color: #db4a39;
+    color: white;
+    
+} 
+.cont span{position: relative;
+    top: 50px;
+    font-size: 30px;
+    left: 30px;
+}
